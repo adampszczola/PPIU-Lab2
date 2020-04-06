@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E2E0024-58A5-F67D-0455-FB362BFA4C85" name="User">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:43:58 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<engineerTo>
+<item key="39CB07AE-2CA1-5A56-17CE-2FEC83814EA9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>user</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_user" id="960D4266-D9F7-EEF9-6106-1BBBD9D23AB3">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:44:13 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<engineerTo>
+<item key="39CB07AE-2CA1-5A56-17CE-2FEC83814EA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imię" id="99901E06-DD5B-39A5-465B-FDDB2C99646E">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:44:28 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<engineerTo>
+<item key="39CB07AE-2CA1-5A56-17CE-2FEC83814EA9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="6646F3C0-F41B-D1C0-7027-3279E9439005">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:44:42 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<engineerTo>
+<item key="39CB07AE-2CA1-5A56-17CE-2FEC83814EA9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stanowisko" id="A3D86AF4-452F-D8B8-0728-330E0A835781">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:45:00 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<engineerTo>
+<item key="39CB07AE-2CA1-5A56-17CE-2FEC83814EA9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Płeć" id="CC279222-5601-F424-8552-D27D5BD2CA92">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:45:15 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<engineerTo>
+<item key="39CB07AE-2CA1-5A56-17CE-2FEC83814EA9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="2451E7F8-6BBA-F399-2B3A-4DF8DA3133BB">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:45:31 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<engineerTo>
+<item key="39CB07AE-2CA1-5A56-17CE-2FEC83814EA9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Login" id="8472B4F2-CF2B-8D3F-ACE9-C45F351D1582">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:46:09 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<engineerTo>
+<item key="39CB07AE-2CA1-5A56-17CE-2FEC83814EA9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Aktywność konta" id="312C0CA3-6421-53CB-BB46-26E2838B337A">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:46:33 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<engineerTo>
+<item key="39CB07AE-2CA1-5A56-17CE-2FEC83814EA9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data rejestracji" id="8751BDFB-E7A3-8B1A-1B48-4CCC10A7BB27">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:47:36 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<engineerTo>
+<item key="39CB07AE-2CA1-5A56-17CE-2FEC83814EA9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A0BEDFBA-5186-3A92-44E2-2C1EA5EFE747" name="User PK">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:44:27 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<engineerTo>
+<item key="39CB07AE-2CA1-5A56-17CE-2FEC83814EA9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>960D4266-D9F7-EEF9-6106-1BBBD9D23AB3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07E54FF8-B913-EB00-7AE3-84491FB93943" name="user_role">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:57:35 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="role_FK" id="BA3F41AD-19F2-909F-FA46-6B2603914D39">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:59:14 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC7C1863-C896-D8A0-7620-ABDF471CB44D" referredColumn="C2D4011E-E5DE-96D5-2932-DEAE6187A49D"/>
+</associations>
+</Column>
+<Column name="user_FK" id="BEAFB0EF-3E62-627A-BC54-7B625C7E4184">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:59:31 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="344C4BCF-FCF1-2F73-7C57-C31077FA78A0" referredColumn="9D476589-FE83-39E9-D373-3CC441046F32"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="661514A9-9024-049C-B65B-C7AEF26C727D" name="role_FK">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:59:14 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA3F41AD-19F2-909F-FA46-6B2603914D39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D429B0C7-716B-3C0E-9C67-E196B551C3B5" name="user_FK">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 12:00:09 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEAFB0EF-3E62-627A-BC54-7B625C7E4184"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

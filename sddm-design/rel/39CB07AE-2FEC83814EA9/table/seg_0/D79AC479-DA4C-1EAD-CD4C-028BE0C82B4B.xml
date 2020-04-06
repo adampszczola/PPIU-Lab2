@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D79AC479-DA4C-1EAD-CD4C-028BE0C82B4B" name="user">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:48:47 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_user" id="9D476589-FE83-39E9-D373-3CC441046F32">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:51:47 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imię" id="CCDB677F-30B6-49E1-66C8-0C0A403703EF">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:51:47 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="DB2138C2-72C3-1754-6313-EF9E26F9334A">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:51:47 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stanowisko" id="0013F20C-E9A6-5FDC-83C2-7CA7A69EE49A">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:51:47 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Płeć" id="4ACB0273-EC2E-F978-1F7B-8342AE2D623D">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:51:47 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="C2403B67-807E-BEB8-8C05-194708262105">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:51:47 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Login" id="80859CFC-9896-D950-964B-CFF952A8A5FD">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:51:47 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hasło" id="FE4070D1-4919-D04B-24C3-4FC17932AA24">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:51:47 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aktywność konta" id="64724880-907A-E512-7522-8E52B4950049">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:51:47 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data rejestracji" id="A5781377-7AFF-DEC5-C2EA-8E518CAE76DC">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:51:47 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CB31FCF-4732-2EAD-BA20-B11761EAA268" name="user_PK">
+<createdBy>Adam</createdBy>
+<createdTime>2020-04-06 11:51:47 UTC</createdTime>
+<ownerDesignName>sddm-design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D476589-FE83-39E9-D373-3CC441046F32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
